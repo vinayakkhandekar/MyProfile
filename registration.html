@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Registration Link</title>
+</head>
+
+<body>
+    <fieldset><legend> <h3>Student Registration</h3></legend>
+   
+    <form>
+        <table>
+            <tbody>
+                <tr>
+                    <td><label for="fname"> First Name </label> </td>
+                    <td> <input type="text" autofocus maxlength="10" placeholder="Only First name" id="fname"></td>
+                </tr>
+                <tr>
+                    <td> <label for="lname"> Last Name </label> </td>
+                    <td><input type="text" placeholder="Last Name" id="lname"> </td>
+                </tr>
+                <tr>
+                    <td> <label for="mobile"> Mobile Number </label> </td>
+                    <td> <input type="number" maxlength="10" required placeholder="enter with Country code" id="mobile">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td> <label for="email"> Email </label> </td>
+                    <td><input type="email" required id="email"></td>
+                </tr>
+                <tr>
+                    <td><label for="ccode">Country Code</label></td>
+                    <td><input type="text" value="India" readonly id="ccode"></td>
+                </tr>
+                <tr>
+                    <td> <label for="pass"> Passwoed </label> </td>
+                    <td><input type="password" required id="pass"></td>
+                </tr>
+                <tr>
+                    <td> <label for="b">Bank </label> </td>
+                    <td><input type="text" value="YES" disabled></td>
+                </tr>
+                <tr>
+                    <td>Date of Birth</td>
+                    <td><input type="date"></td>
+                </tr>
+                <tr>
+                    <td>Week</td>
+                    <td><input type="week"></td>
+                </tr>
+                <tr>
+                    <td>Preferred time</td>
+                    <td><input type="time"></td>
+                </tr>
+                <tr>
+                    <td>Profile photo</td>
+                    <td><input type="file"></td>
+                </tr>
+                <tr>
+                    <td> Select Certificates</td>
+                    <td><input type="file" multiple></td>
+                </tr>
+                <tr>
+                    <td>Select qualification</td>
+                    <td>
+                        <select>
+                            <option>BE</option>
+                            <option>MCA</option>
+                            <option>BSCIT</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>SEelct</td>
+                    <td><select>
+                            <optgroup label="MCA">
+                                <option>MCA SCIENCE</option>
+                                <option>MCA Commerce</option>
+                            </optgroup>
+                            <optgroup label="MBA">
+                                <option>Human Resource</option>
+                                <option>Material Science</option>
+                                <option>Finance</option>
+
+                            </optgroup>
+                        </select></td>
+                </tr>
+                <tr>
+                    <td><label>Select Course</label></td>
+                    <td> <input type="radio" name="Gender"><label> Male</label>
+                        <input type="radio" name="Gender"><label>Female</label>
+                        <input type="radio" name="Gender"><label>Others</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Checkbox</td>
+                    <td><input type="checkbox"> <label>Angular</label>
+                        <input type="checkbox"> <label>Java</label>
+                        <input type="checkbox"> <label>.Net</label>
+                        <input type="checkbox"> <label>Testing</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Address</label></td>
+                    <td><textarea cols="20" rows="3"></textarea></td>
+                </tr>
+                <tr>
+                    <td><input type="submit"></td>
+                    <td><input type="reset"></td>
+                </tr>
+            </tbody>
+
+
+    </form>
+</fieldset>
+
+</body>
+
+</html>
