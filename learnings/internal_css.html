@@ -25,7 +25,7 @@
 
     } */
     *{
-        color: aqua;
+        color:;
         /* background-image: url(../resources/developer.png);
         background-repeat: no-repeat;
        height: 100%; */
@@ -45,6 +45,43 @@
        
         margin-bottom: 5px;
     }
+    table {
+        border: 1px dotted cadetblue;
+        margin-top: 30px;
+        margin-left: 30px;
+        border-collapse: collapse ;
+      }
+      th, td {
+        border: 1px solid cadetblue;
+        text-align: left;
+        padding: 10px;
+      }
+      th{
+        background-color: bisque;
+      }
+      th,td{
+        border-bottom: 2px;
+      }
+      .o{
+        background-color: bisque;
+      }
+      h2{
+        text-shadow: 3px 3px 6px cadetblue;
+        text-transform: uppercase;
+      }
+      #overflow_prop{
+            width: 200px;
+            height: 200px;
+            border: 1px solid cadetblue;
+            overflow: auto;
+         }
+         ul{
+            float: right;
+            background-color: antiquewhite;
+            margin-top: 40px;
+         }
+
+
 </style>
     </head>
     <body>
@@ -55,13 +92,53 @@
             <li>Learning new things</li>
         </ul>
 
-        <p class="para"> This is paragraph 1</p>
+        <!-- <p class="para"> This is paragraph 1</p>
         <p class="para"> This is paragraph 2</p>
         <p > This is paragraph 3</p>
         <h4>This is Heading 1</h4>
         <h4>This is Heading 2</h4>
         <h5>This is Heading 5</h5>
-        <h6 id="head_6">This is Heading 6</h6>
+        <h6 id="head_6">This is Heading 6</h6> --> 
+        <h2><marquee direction="left" width="700px" height="30px" behavior="sliding"> PROFESSIONAL SUMMARY  </marquee>
+        </h2>
+        <table>
+            <thead>
+                <th>Education</th>
+                <th>College</th>
+                <th class="o">Percentage</th>
+                <th>University</th>
+                <th>Year</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>BSCIT</td>
+                    <td>Bhavan's College</td>
+                    <td class="o">78.38%</td>
+                    <td>Mumbai University</td>
+                    <td>2019-2022</td>
+                </tr>
+                <tr>
+                    <td>HSC</td>
+                    <td>Bhavan's College</td>
+                    <td class="o">53.08%</td>
+                    <td>Maharashtra State Board</td>
+                    <td>2018-2019</td>
+                </tr>
+                <tr>
+                    <td>SSC</td>
+                    <td>Sri Sathya Sai Vidyamandir</td>
+                    <td class="o">66.20%</td>
+                    <td>Maharashtra State Board</td>
+                    <td>2016-2017</td>
+                </tr>
+            </tbody>
+        </table>
+        <p id="overflow_prop">  the main body of a book or other piece of writing, as distinct from other material such as notes, appendices, and illustrations.
+            "the pictures are clear and relthe main body of a book or other piece of writing, as distinct from other material such as notes, appendices, and illustrations.
+            "the pictures are clear and relthe main body of a book or other piece of writing, as distinct from other material such as notes, appendices, and illustrations.
+         "the pictures are clear and relthe main body of a book or other piece of writing, as distinct from other material such as notes, appendices, and illustrations.
+         </p>
+        
         
     </body>
 </html>

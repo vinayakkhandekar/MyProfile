@@ -5,36 +5,64 @@
         <style>
             table,td{
                 border: 1px solid black;
+                text-align: center;
+                padding: 5px 5px 5px 5px;
+                margin-left: 220px;
+               border-color: #101820FF;
+
+              
             }
-            *{
+            table{
+                border-radius: 20px;
+                height: 300px;
+                width: 250px;
+            }
+            /* *{
                 background-image: url('resources/bg.png');
                 background-repeat: no-repeat;
                 background-size: cover;
+            }  */
+            body{
+                background-color: #FAEBEFFF;
+            }
+            .col{
+                background-color: #00203FFF;
+                color: aliceblue;
+            }
+            .row{
+                background-color: #ADEFD1FF;
+            }
+            h3{
+                color: #F2AA4CFF;
+                font-size: 30px;
+                text-align: center;
+                background-color: #101820FF;
+                border-radius: 10px;
             }
         </style>
     </head>
     <body>
-<h3>TECH STACK</h3>
+<h3 >TECH STACK :</h3>
 <table>
     <thead>
         
     </thead>
     <tbody>
         <tr>
-            <td rowspan="4">Technology stack:</td>
-            <td>HTML,CSS</td>
+            <td class="col" rowspan="4">Technology stack:</td>
+            <td class="row">HTML,CSS</td>
         </tr>
         <tr>
-            <td>Javascript</td>
+            <td class="row">Javascript</td>
 
         </tr>
-        <tr><td>Bootstrap</td></tr>
-        <tr><td>Typescript</td></tr>
+        <tr><td class="row">Bootstrap</td></tr>
+        <tr><td class="row"> Typescript</td></tr>
         <tr>
-            <td rowspan="3">Tools:</td>
-            <td>Git HUb</td>
+            <td class="col" rowspan="3">Tools:</td>
+            <td class="row">Git HUb</td>
         </tr>
-        <tr><td>Agile & Jira</td></tr>
+        <tr><td class="row">Agile & Jira</td></tr>
     </tbody>
 </table>
     </body>
